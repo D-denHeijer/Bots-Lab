@@ -1,5 +1,5 @@
 # Name of the file (without .py extension!) that contains the bot
-bot_name = 'bots.rsi'
+bot_name = 'bots.engulfing_ema'
 
 # Example settings for backtesting engine
 sim_params = {
@@ -9,7 +9,7 @@ sim_params = {
         'Short': 0.0015,     # Fee settings for Short
     },
     'resample': True, # For binance do not resample
-    'data_frequency': '4H'  # Time frame to use (see /helpers/timeframe_resampler.py for more info)
+    'data_frequency': '15m'  # Time frame to use (see /helpers/timeframe_resampler.py for more info)
 }
 
 # Datasource is poloniex, cryptocompare or binance
